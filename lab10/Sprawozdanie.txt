@@ -1,0 +1,4 @@
+1.a) W przypadku poprawnego wczytania kodu wykonują się instrukcje z pętli try i finally.
+b) Kod w try generuje wyjątek IOException: wykonuje się próba try, catch i finally.
+2. Rozwiązanie try z zasobami rozwiązuje zagadnienie zgłaszania wyjątków w sekcji try i przez metodę close().
+3. Można użyć metody podobnej do try z zasobami, tylko usuwając słowo try.

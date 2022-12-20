@@ -1,3 +1,4 @@
+import static org.junit.jupiter.api.Assertions.*;
 public class Prefix {
     public static String shortestWord(String[] words) {
         for (int i = 0; i < words.length; i++) {
@@ -19,6 +20,7 @@ public class Prefix {
                   result=result.substring(0,i);
               continue;
             }
+
         }
         return result;
     }

@@ -56,7 +56,7 @@ public class CustomList {
                 //deleting the element
                 node.setValue(node.getNext().getValue());
                 //one element before the last one is being deleted case
-                if (node.getNext().getNext()== null&&node.getNext().getValue()==node.getValue()){
+                if (node.getNext().getNext() == null && node.getNext().getValue() == node.getValue()) {
                     node.setNext(null);
                     size--;
                     break;
@@ -67,43 +67,45 @@ public class CustomList {
                 size--;
                 changes++;
             }
-                //setting next to be checked
-                if (node.getNext() != null) {
-                    //for last element
-                        if(node.getNext().getNext()==null&& node.getNext().getValue() == value) {
-                        node.setNext(null);
-                        size--;
-                        changes++;
-                        break;
-                    }
-                    node = node.getNext();
-                } else if (changed)
-                    return changes;
-                else return -1;
+            //setting next to be checked
+            if (node.getNext() != null) {
+                //for last element
+                if (node.getNext().getNext() == null && node.getNext().getValue() == value) {
+                    node.setNext(null);
+                    size--;
+                    changes++;
+                    break;
+                }
+                node = node.getNext();
+            } else if (changed)
+                return changes;
+            else return -1;
         }
         return -1;
     }
-    public int remove(int[]values){
-        int changes=0;
-        for (int value: values) {
-            changes+=remove(value);
+
+    public int remove(int[] values) {
+        int changes = 0;
+        for (int value : values) {
+            changes += remove(value);
         }
         return changes;
     }
+
     public void remove2(int value) {
         Node node = root;
         Node newNode = new Node(value);
         // we have the empty list, so add the new node as the root
 
-            // traverse through the list to find the last node
-            while (node.getNext() != null) {
-                if(node.getValue()==value) {
-                node}
+        // traverse through the list to find the last node
+        while (node.getNext() != null) {
+            if (node.getValue() == value) {
+                node=null;
             }
-            // add the new node after the last one
-            node.setNext(new Node(value));
         }
-        // increase the size of the list
+        // add the new node after the last one
+        node.setNext(new Node(value));
+    // increase the size of the list
         ++size;
     }
 
@@ -178,7 +180,6 @@ public class CustomList {
             customList.add(9);
             customList.add(7);
             customList.add(3);
-
             System.out.println("Prime list: " + customList + " Size: " + customList.length());
             System.out.println("My tests");
             customList.remove(1);

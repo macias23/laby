@@ -2,3 +2,5 @@
 b) Kod w try generuje wyjątek IOException: wykonuje się próba try, catch i finally.
 2. Rozwiązanie try z zasobami rozwiązuje zagadnienie zgłaszania wyjątków w sekcji try i przez metodę close().
 3. Można użyć metody podobnej do try z zasobami, tylko usuwając słowo try.
+4. Testowanie dzielenia dla liczb zmiennoprzecinkowych ma sens jedynie gdy mają one skończone rozwinięcie dziesiętne, ponieważ nie jesteśmy w stanie przewidzieć wyniku gdy jest on liczbą o nieskończonym rozwinięciu dziesiętnym
+5.

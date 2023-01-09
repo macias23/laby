@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8888bf97-7572-45be-8f58-7c35fd370c7e" name="Changes" comment="lab10">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab10/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab10/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab10/Sprawozdanie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab10/Sprawozdanie.txt" afterDir="false" />
+    <list default="true" id="8888bf97-7572-45be-8f58-7c35fd370c7e" name="Changes" comment="Tworzenie największej liczby">
+      <change afterPath="$PROJECT_DIR$/lab8 sort/Node2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8 sort/NodeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/maciejlipski/Library/Mobile Documents/com~apple~CloudDocs/Studia/APRO/Własne programy/lab/lab10&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maciejlipski/Library/Mobile Documents/com~apple~CloudDocs/Studia/APRO/Własne programy/lab&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,8 +58,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lab10" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lab10" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -76,9 +73,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NajwiekszaLiczba">
+  <component name="RunManager" selected="Application.NodeList">
     <configuration name="NajwiekszaLiczba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NajwiekszaLiczba" />
+      <module name="lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NodeList" />
       <module name="lab" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NodeList" />
         <item itemvalue="Application.NajwiekszaLiczba" />
         <item itemvalue="Application.Prefix" />
       </list>
@@ -128,7 +133,9 @@
       <workItem from="1671537074837" duration="133000" />
       <workItem from="1671538991091" duration="670000" />
       <workItem from="1673277342871" duration="1283000" />
-      <workItem from="1673278686430" duration="2723000" />
+      <workItem from="1673278686430" duration="2974000" />
+      <workItem from="1673282842540" duration="3436000" />
+      <workItem from="1673286434982" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="zadania">
       <created>1671054356754</created>
@@ -151,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671537187327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tworzenie największej liczby">
+      <created>1673281479509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673281479509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +186,8 @@
     <MESSAGE value="zadania" />
     <MESSAGE value="lab8" />
     <MESSAGE value="lab10" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab10" />
+    <MESSAGE value="Tworzenie największej liczby" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tworzenie największej liczby" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,7 +200,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Indywidualne2/NajwiekszaLiczba.java</url>
           <line>3</line>
-          <properties class="NajwiekszaLiczba" method="nawiekszaLiczba">
+          <properties class="NajwiekszaLiczba" method="greatestNumber">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
